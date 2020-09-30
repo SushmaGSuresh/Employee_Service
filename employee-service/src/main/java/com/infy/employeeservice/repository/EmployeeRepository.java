@@ -19,6 +19,8 @@ public interface EmployeeRepository extends CrudRepository<Employee,Integer>{
 
 	List<Employee> getEmployeeByempId(int empId);
 
+	//Iterable<Employee> getAllEmployees();
+
 
 
 
